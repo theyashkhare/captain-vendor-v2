@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/fill_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="clip_horizontal"
+        android:text="@string/fill_in_details"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/mcheckBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fill_text">
+
+        <TextView
+            android:id="@+id/p_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_horizontal"
+            android:text="@string/legal_information"
+            android:textColor="#B2000000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/fill_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <AutoCompleteTextView
+                android:id="@+id/quesPage_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:autofillHints=""
+                android:hint="@string/account_name"
+                android:inputType=""
+                android:textAllCaps="true"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/bank_name"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="0.7"
+                android:entries="@array/bank_list"
+                android:prompt="@string/bank_name"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/quesPage_bankAcc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/bank_account_number_optional"
+                android:inputType="number"
+                android:textAllCaps="true"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/quesPage_ifsc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8sp"
+                android:hint="@string/ifsc_code_optional"
+                android:importantForAutofill="no"
+                android:inputType=""
+                android:textAllCaps="true"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/mcheckBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layoutDirection="rtl"
+        android:text="@string/i_agree_that_i_do_not_have_any_criminal_or_medical_history"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/fill_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <Button
+        android:id="@+id/fill_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ic_fill_button"
+        android:fontFamily="@font/poppins"
+        android:text="@string/submit"
+        android:textColor="#F8F6F6"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

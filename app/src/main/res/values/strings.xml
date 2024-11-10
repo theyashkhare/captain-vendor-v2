@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Captain Serve - Vendor</string>
+    <string name="todo">TODO</string>
+    <string name="splash">splash</string>
+    <string name="captain_serve">Captain Serve</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="already_a_member_login_now">Already a member? Login now!</string>
+    <string name="facebook">Facebook</string>
+    <string name="don_t_have_an_account_yet_register_now">Don\'t have an account yet? Register now!</string>
+    <string name="register">Register</string>
+    <string name="google">Google</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="coming_soon">Coming Soon!</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="we_ll_get_in_touch_with_you">We\'ll get in touch with you.</string>
+    <string name="www_captainserve_com">www.captainserve.com</string>
+    <string name="meanwhile_you_should_visit_our_website">Meanwhile, you should visit our website!</string>
+    <string name="submit">Submit</string>
+    <string name="or_login_with">Or Login With</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Password too short or does not match</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="ques_name">Name :</string>
+    <string name="fill_in_details">Fill in the Details</string>
+    <string name="age">Age</string>
+    <string name="sex">Sex</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="adhaar_card_no">Adhaar Card Number (Optional)</string>
+    <string name="pan_card_number">Pan Card Number (Optional)</string>
+    <string name="address">Address</string>
+    <string name="medical_conditions_if_any">Medical Conditions (If Any)</string>
+    <string name="ifsc_code_optional">IFSC Code</string>
+    <string name="bank_account_number_optional">Bank Account Number</string>
+    <string name="error_invalid_phoneno">Phone number provided is invalid.</string>
+    <string name="comfirm_password">Confirm Password</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="show">Show</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="legal_information">Legal Information (Optional)</string>
+    <string name="account_name">Account Name</string>
+    <string name="i_agree_that_i_do_not_have_any_criminal_or_medical_history">I agree that I do not have any criminal or medical history.</string>
+    <string name="next">Next</string>
+    <string-array name="sex_types">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Rather Not Say</item>
+    </string-array>
+
+    <string-array name="services_types">
+        <item>Services</item>
+        <item>Plumbing</item>
+        <item>Carpenting</item>
+        <item>House Keeping</item>
+        <item>Pest Control</item>
+        <item>Home Cleaning</item>
+        <item>Laundry</item>
+        <item>Painters</item>
+        <item>Fabrication</item>
+        <item>Event Planning</item>
+        <item>Interior Designers</item>
+        <item>Photography</item>
+        <item>Solar Systems</item>
+        <item>Packers and Movers</item>
+    </string-array>
+
+    <string-array name="bank_list">
+        <item>Select Bank</item>
+        <item>Axis Bank Limited</item>
+        <item>Bank of Maharashtra</item>
+        <item>Bank of Baroda</item>
+        <item>Central Bank of India</item>
+        <item>City Union Bank Limited</item>
+        <item>HDFC Bank Limited</item>
+        <item>ICICI Bank Limited</item>
+        <item>IndusInd Bank Limited</item>
+        <item>Kotak Mahindra Bank Limited</item>
+        <item>YES Bank Limited</item>
+    </string-array>
+
+</resources>

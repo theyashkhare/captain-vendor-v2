@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "488414387682",
+    "firebase_url": "https://captain-vendor.firebaseio.com",
+    "project_id": "captain-vendor",
+    "storage_bucket": "captain-vendor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488414387682:android:e7e926cd46a11288",
+        "android_client_info": {
+          "package_name": "com.captainserve.captainvendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488414387682-olcal6l7vfv6l2h97rtommd6dciu6l8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.captainserve.captainvendor",
+            "certificate_hash": "35785bd8e0447281f2bb4897e776f69b41d7a33e"
+          }
+        },
+        {
+          "client_id": "488414387682-f1u6vhgueqj0jq1k7qlngmfk9djs298e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBgful-QKBusZaWW2OQ_FXprxIm3aJTAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488414387682-f1u6vhgueqj0jq1k7qlngmfk9djs298e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
