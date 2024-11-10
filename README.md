@@ -1,4 +1,6 @@
-# CaptainVendor2
+# Captain Vendor 2
+
+[DEPRECATED] Project developed for a client.
 
 ## Table of Contents
 
