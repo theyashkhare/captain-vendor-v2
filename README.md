@@ -9,7 +9,6 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
@@ -83,13 +82,6 @@ Please ensure your code follows the project's coding standards and includes rele
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any inquiries or support, please contact:
-
-- **Email**: support@yourdomain.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
 
 ## Acknowledgments
 
